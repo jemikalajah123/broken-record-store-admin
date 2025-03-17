@@ -12,8 +12,6 @@ export default function AdminPage() {
     category: "",
     artist: "",
     album: "",
-    sortBy: "name",
-    sortOrder: "asc",
     page: 1
   });
 

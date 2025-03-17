@@ -11,16 +11,16 @@ export default function FilterBar({ setFilters }: { setFilters: (filters: any) =
   const [album, setAlbum] = useState("");
 
   const handleFilterChange = () => {
-    setFilters((prevFilters: any) => ({
-      ...prevFilters,
+    setFilters({
       q: search,
       limit,
       format,
       category,
       artist,
       album,
-      page: 1, // Reset to first page when filters change
-    }));
+      page: 1, 
+    });
+    
   };
 
   return (

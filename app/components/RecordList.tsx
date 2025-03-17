@@ -51,6 +51,7 @@ export default function RecordList({ filters }: { filters: any }) {
     fetchData();
   }, [filters, page]);
 
+  console.log(totalPages)
   const handleAddRecord = (newRecord: RecordType) => {
     setRecords((prev) => [{ ...newRecord, _id: newRecord._id || uuidv4() }, ...prev]);
   };
