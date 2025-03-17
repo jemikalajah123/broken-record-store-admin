@@ -28,12 +28,10 @@ The **Broken Record Store Admin UI** is a user-friendly web interface designed t
 
 ## Example UI Components
 ### **Record List View**
-| Artist        | Album              | Format  | Category     |
-|--------------|-------------------|---------|-------------|
-| Oke         | My Track          | Vinyl   | Pop         |
-| The Smiths  | The Queen Is Dead | CD      | Alternative |
-| The Cure    | Disintegration     | Vinyl   | Rock        |
-| Pearl Jam   | Ten               | Cassette| Rock        |
+<img width="1792" alt="Screenshot 2025-03-17 at 17 56 04" src="https://github.com/user-attachments/assets/efe01ee7-dec7-4726-9c3b-564e66da8e10" />
+
+<img width="1792" alt="Screenshot 2025-03-17 at 17 56 08" src="https://github.com/user-attachments/assets/43bf0e16-4ef5-4512-8c67-38b6d0f62745" />
+
 
 ### **Admin Actions**
 - **Search:** Input an artist or album name to find specific records.
